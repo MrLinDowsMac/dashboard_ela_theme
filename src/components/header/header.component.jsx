@@ -6,12 +6,12 @@ import userpic from '../../styles/images/users/5.jpg'
 //import bootstrap from "bootstrap";
 //import '../custom.css';
 
-function HeaderComponent() {
+const HeaderComponent = () => {
     return (
       <div className="header">
         <nav className="navbar top-navbar navbar-expand-md navbar-light">
           <div className="navbar-header">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               <b><img src={logo} alt="homepage" className="dark-logo" /></b>
               <span><img src={logotext} alt="homepage" className="dark-logo" /></span>
             </a>
@@ -77,7 +77,7 @@ function HeaderComponent() {
 
                 {/* <!-- Profile --> */}
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src={userpic} alt="user" className="profile-pic" /></a>
+                    <a className="nav-link dropdown-toggle text-muted  " href="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src={userpic} alt="user" className="profile-pic" /></a>
                     <div className="dropdown-menu dropdown-menu-right animated zoomIn">
                         <ul className="dropdown-user">
                             <li><a href="/"><i className="ti-user"></i> Profile</a></li>

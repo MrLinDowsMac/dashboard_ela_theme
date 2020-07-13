@@ -1,10 +1,12 @@
 import React from 'react';
+//import { Route,Switch } from "react-router-dom";
 //import logo from './logo.svg';
 import './App.css';
 import './styles/custom.scss';
 import HeaderComponent from './components/header/header.component';
 import SpinnerComponent from './components/spinner/spinner.component';
 import SideBarComponent from './components/sidebar/sidebar.component';
+import EcommercePage from './pages/Ecommerce/ecommerce.component';
 
 function App() {
   return (
@@ -35,7 +37,10 @@ function App() {
               <div className="container-fluid">
                 {/* Start Page Content */}
                 
-                {/* Here you will be use route? */}
+                {/* <Switch>
+                  <Route exact path='/' component={EcommercePage} />
+                </Switch> */}
+                <EcommercePage />
 
                 {/* End PAge Content */}
               </div>

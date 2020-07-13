@@ -1,6 +1,6 @@
 import React from "react";
 
-function SpinnerComponent(props){
+const SpinnerComponent = (props) => {
     if (props.isBusy){
         return (
             <div className="preloader">
