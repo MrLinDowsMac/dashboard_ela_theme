@@ -1,0 +1,35 @@
+{
+    "title" : "",
+    "data" : [
+        {
+            "id": 1,
+            "name" : "iMacs",
+            "percentage": 85,
+            "bootstrapColor": "danger"
+        },
+        {
+            "id": 2,
+            "name" : "iBooks",
+            "percentage" : 90,
+            "bootstrapColor" : "info"
+        },
+        {
+            "id": 3,
+            "name" : "iPhone",
+            "percentage" : 65,
+            "bootstrapColor" : "success"
+        },
+        {
+            "id": 4,
+            "name" : "Samsung",
+            "percentage" : 65,
+            "bootstrapColor" : "warning"
+        },
+        {
+            "id": 5,
+            "name" : "Android",
+            "percentage" : 65,
+            "bootstrapColor" : "success"
+        }
+    ]
+}

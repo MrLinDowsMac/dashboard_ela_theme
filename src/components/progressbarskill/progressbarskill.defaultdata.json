@@ -1,0 +1,23 @@
+{
+    "title" : "SKILLS",
+    "data" : [
+        {
+            "id": 1,
+            "name" : "Photoshop",
+            "percentage": 85,
+            "bootstrapColor": "danger"
+        },
+        {
+            "id": 2,
+            "name" : "Code editor",
+            "percentage" : 90,
+            "bootstrapColor" : "info"
+        },
+        {
+            "id": 3,
+            "name" : "Illustrator",
+            "percentage" : 65,
+            "bootstrapColor" : "success"
+        }
+    ]
+}
