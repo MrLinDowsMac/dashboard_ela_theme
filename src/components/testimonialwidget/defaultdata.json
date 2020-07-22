@@ -1,0 +1,46 @@
+[
+    {
+        
+        "id": 1,
+        "name" : "John",
+        "position" : "Founder-Ceo. Dell Corp",
+        "authorImg" : "styles/images/avatar/2.jpg",
+        "testimonialText": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+    },
+    {
+        "id": 2,
+        "name" : "Abraham",
+        "position" : "Founder-Ceo. Dell Corp",
+        "authorImg" : "styles/images/avatar/3.jpg",
+        "testimonialText": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+    },
+    {
+        "id": 3,
+        "name" : "Lincoln",
+        "position" : "Founder-Ceo. Dell Corp",
+        "authorImg" : "styles/images/avatar/1.jpg",
+        "testimonialText": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+    },
+    {
+        "id": 4,
+        "name" : "TYRION LANNISTER",
+        "position" : "Founder-Ceo. Dell Corp",
+        "authorImg" : "styles/images/avatar/5.jpg",
+        "testimonialText": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+    },
+    {
+        "id": 5,
+        "name" : "John",
+        "position" : "Founder-Ceo. Dell Corp",
+        "authorImg" : "styles/images/avatar/6.jpg",
+        "testimonialText": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+    },
+    {
+        "id": 6,
+        "name" : "John",
+        "position" : "Founder-Ceo. Dell Corp",
+        "authorImg" : "styles/images/avatar/4.jpg",
+        "testimonialText": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+    }
+
+]

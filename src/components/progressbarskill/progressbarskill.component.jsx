@@ -9,15 +9,19 @@ class ProgressBarSkillComponent extends React.Component {
     }
     
     render(){
+        const { title, headersStyle, ...otherprops } = this.props;
+        //console.log(headersStyle);
+       
         return(
-        <div className="col-md-4 p-r-40 m-t-30 m-b-30">
-            <h4 className="card-title">{this.state.title}</h4>
+        // <div className="col-md-4 p-r-40 m-t-30 m-b-30">
+        <div {...otherprops} >
+            { title !== "" ? <h4 className="card-title">{title}</h4> : null }
             {this.state.data.map( dataElement => (
                 <React.Fragment key={dataElement.id}>
-                    { this.props.headersStyle === 'paragraph' ?  
-                        <p className="f-w-600">{dataElement.name}<span className="pull-right">${dataElement.percentage}%</span></p>
+                    { headersStyle === 'paragraph' ?  
+                        <p className="f-w-600">{dataElement.name}<span className="pull-right">{dataElement.percentage}%</span></p>
                     :
-                        <h5 className="m-t-30">{dataElement.name}<span className="pull-right">${dataElement.percentage}%</span></h5>
+                        <h5 className="m-t-30">{dataElement.name}<span className="pull-right">{dataElement.percentage}%</span></h5>
                     }
                    <div className="progress ">
                     
@@ -26,7 +30,7 @@ class ProgressBarSkillComponent extends React.Component {
                 </React.Fragment>
             ))  
             }
-        </div>)
+        </div>) 
     }
     
     
