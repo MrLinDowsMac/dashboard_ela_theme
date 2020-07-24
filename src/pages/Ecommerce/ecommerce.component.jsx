@@ -6,6 +6,7 @@ import TestimonialWidgetComponent from "../../components/testimonialwidget/testi
 import TableBasicComponent from "../../components/tablebasic/tablebasic.component";
 
 import tablebasicdata from "./tablebasic.data.json";
+import CommentsSectionComponent from "../../components/commentssection/commentssection.component";
 
 
 const EcommercePage = () => {
@@ -53,6 +54,13 @@ const EcommercePage = () => {
                         </tbody>
                 </table>
             </TableBasicComponent>
+        </div>
+        <div className="row">
+            <div className="col-lg-8">
+                <div className="row">
+                    <CommentsSectionComponent className="col-lg-6" title="Messages" />
+                </div>
+            </div>
         </div>
         </Fragment>
     )

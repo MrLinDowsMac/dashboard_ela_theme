@@ -1,0 +1,27 @@
+[
+    {
+        "idComment" : 1,
+        "profilePic" : "styles/images/avatar/1.jpg",
+        "name": "john doe",
+        "commentText" : "Cras sit amet nibh libero, in gravida nulla.",
+        "commentDate" : "October 21, 2018"
+    },
+    {   "idComment" : 2,
+        "profilePic" : "styles/images/avatar/1.jpg",
+        "name": "john doe",
+        "commentText" : "Cras sit amet nibh libero, in gravida nulla.",
+        "commentDate" : "October 21, 2018"
+    },
+    {   "idComment" : 3,
+        "profilePic" : "styles/images/avatar/1.jpg",
+        "name": "john doe",
+        "commentText" : "Cras sit amet nibh libero, in gravida nulla.",
+        "commentDate" : "October 21, 2018"
+    },
+    {   "idComment" : 4,
+        "profilePic" : "styles/images/avatar/1.jpg",
+        "name": "Mr. Michael",
+        "commentText" : "Cras sit amet nibh libero, in gravida nulla.",
+        "commentDate" : "October 21, 2018"
+    }
+]
