@@ -14,7 +14,7 @@ const CommentsSectionComponent = ({title, className}) => {
                         <div className="media-left">
                             <span href="#"><img alt="..." src={require(`../../${comment.profilePic}`)} className="media-object" /></span>
                         </div>
-                        <div className="media-body" style={{ "text-align": "left"}} >
+                        <div className="media-body" style={{ "textAlign": "left"}} >
                             <h4 className="media-heading">{comment.name}</h4>
                             <p> { comment.commentText } </p>
                             <p className="comment-date">{ comment.commentDate }</p>

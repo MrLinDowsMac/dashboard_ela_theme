@@ -4,9 +4,12 @@ import ExtraAreaChartComponent from "../../components/extraareachart/extraareach
 import ProgressBarSkillComponent from "../../components/progressbarskill/progressbarskill.component";
 import TestimonialWidgetComponent from "../../components/testimonialwidget/testimonialwidget.component";
 import TableBasicComponent from "../../components/tablebasic/tablebasic.component";
+import CommentsSectionComponent from "../../components/commentssection/commentssection.component";
+import CalendarComponent from "../../components/calendar/calendar.component";
 
 import tablebasicdata from "./tablebasic.data.json";
-import CommentsSectionComponent from "../../components/commentssection/commentssection.component";
+import TodoListComponent from "../../components/todolist/todolist.component";
+
 
 
 const EcommercePage = () => {
@@ -59,8 +62,10 @@ const EcommercePage = () => {
             <div className="col-lg-8">
                 <div className="row">
                     <CommentsSectionComponent className="col-lg-6" title="Messages" />
+                    <CalendarComponent className="col-lg-6" />
                 </div>
             </div>
+            <TodoListComponent className="col-lg-4" />
         </div>
         </Fragment>
     )
